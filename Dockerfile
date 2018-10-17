@@ -1,5 +1,5 @@
 FROM google/cloud-sdk:216.0.0-slim
-MAINTAINER amirhossein.hosseini@smarp.com
+MAINTAINER Amir J.Hosseini <amirhossein.hosseini@smarp.com>
 USER root
 
 RUN apt-get update
