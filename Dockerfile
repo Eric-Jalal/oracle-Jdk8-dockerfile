@@ -3,7 +3,7 @@ MAINTAINER amirhossein.hosseini@smarp.com
 USER root
 
 RUN apt-get update
-RUN apt-get install software-properties-common python-software-properties
+RUN apt-get install software-properties-common
 RUN add-apt-repository ppa:webupd8team/java
 RUN apt-get update
 RUN apt-get install oracle-java8-installer
