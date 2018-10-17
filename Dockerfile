@@ -1,4 +1,4 @@
-FROM 
+FROM google/cloud-sdk:216.0.0-slim
 MAINTAINER amirhossein.hosseini@smarp.com
 USER root
 
